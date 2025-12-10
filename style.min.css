@@ -1,1 +1,19 @@
-
+    /* =========================================== */
+    /* RESET E VARIÁVEIS GLOBAIS */
+    /* =========================================== */
+    :root {
+        --primary: #0a5c8c;
+        /* ... */
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        /* ... e CONTINUA por 2918 linhas ... */
+    }
+    
+    /* ... continua todo o CSS ... */
+    
+    @media (max-width: 576px) {
+        /* ... últimas linhas ... */
+    }
