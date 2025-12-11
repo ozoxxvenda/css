@@ -1,19 +1,17 @@
-    /* =========================================== */
-    /* RESET E VARIÁVEIS GLOBAIS */
-    /* =========================================== */
-    :root {
-        --primary: #0a5c8c;
-        /* ... */
-    }
-    
-    * {
-        margin: 0;
-        padding: 0;
-        /* ... e CONTINUA por 2918 linhas ... */
-    }
-    
-    /* ... continua todo o CSS ... */
-    
-    @media (max-width: 576px) {
-        /* ... últimas linhas ... */
-    }
+.lazy {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.lazy.loaded {
+    opacity: 1;
+}
+
+.lazy-iframe {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.lazy-iframe.loaded {
+    opacity: 1;
+}
